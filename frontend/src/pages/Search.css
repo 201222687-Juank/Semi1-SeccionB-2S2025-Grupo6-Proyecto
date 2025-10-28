@@ -1,0 +1,53 @@
+.search-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.search-header h1 {
+  margin: 0;
+  background: linear-gradient(45deg, #64b3f4, #c2e9fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.search-tabs {
+  display: flex;
+  background: rgba(30, 30, 46, 0.6);
+  border-radius: 15px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tab-button {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  color: #888;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.tab-button.active {
+  background: linear-gradient(45deg, #64b3f4, #c2e9fb);
+  color: #0f0f0f;
+  box-shadow: 0 5px 15px rgba(100, 179, 244, 0.3);
+}
+
+.tab-button:hover:not(.active) {
+  background: rgba(100, 179, 244, 0.1);
+  color: #64b3f4;
+}
+
+.tab-content {
+  margin-bottom: 2rem;
+}

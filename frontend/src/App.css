@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+.App-header {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  background: linear-gradient(45deg, #64b3f4, #c2e9fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.App-header p {
+  margin-top: 0.5rem;
+  opacity: 0.8;
+  font-size: 1.1rem;
+}
+
+.App-main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App-footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #888;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Estilos para la página de búsqueda */
+.search-page {
+  background: rgba(30, 30, 46, 0.8);
+  border-radius: 15px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.search-page h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #64b3f4;
+}
+
+.loading p {
+  font-size: 1.1rem;
+}
+
+.welcome-message {
+  text-align: center;
+  padding: 3rem;
+  color: #888;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.search-results h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #64b3f4;
+  padding-bottom: 0.5rem;
+}
+
+/* Loading para cambio de idioma */
+.language-loading {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(100, 179, 244, 0.9);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  z-index: 1000;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.7; }
+  50% { opacity: 1; }
+  100% { opacity: 0.7; }
+}

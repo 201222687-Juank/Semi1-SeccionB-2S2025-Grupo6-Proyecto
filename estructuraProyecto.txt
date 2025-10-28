@@ -1,0 +1,20 @@
+futbol-app/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── config/
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── styles/
+│   ├── package.json
+│   └── public/
+└── database/
+    └── scripts/
