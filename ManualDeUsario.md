@@ -38,7 +38,7 @@ La aplicación funciona tanto en **dispositivos móviles como en web**, y utiliz
 3. Completar los datos: **nombre, correo electrónico, contraseña y rol** (fanático, jugador, administrador).  
 4. Confirmar el registro mediante el **correo de verificación**.  
 
-![appfutboll](img/appfutbol.JPG)
+![appfutboll](appfutbol.JPG)
 
 
 ---
@@ -60,7 +60,7 @@ La aplicación funciona tanto en **dispositivos móviles como en web**, y utiliz
 3. Revisar estadísticas individuales (**goles, asistencias, tarjetas**) y del equipo.  
 4. Analizar **gráficas generadas por el sistema**.  
 
-![buscar](img/buscar.JPG)
+![buscar](buscar.JPG)
 
 ---
 
@@ -71,9 +71,9 @@ La aplicación funciona tanto en **dispositivos móviles como en web**, y utiliz
 3. Confirmar y esperar la **carga completa al servidor**.  
 4. El contenido se almacena en **AWS S3** y se **replica en Azure Blob** para mayor disponibilidad.  
 
-![busqueda](img/buscarporimagen.JPG)
+![busqueda](buscarporimagen.JPG)
 
-![appfutboll](img/buscarjugador.JPG)
+![appfutboll](buscarjugador.JPG)
 ---
 
 ### 3.5 Recibir Notificaciones
