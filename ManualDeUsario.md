@@ -1,5 +1,10 @@
 # 📘 Manual de Usuario – App de Fútbol Híbrida (AWS + Azure)
 
+
+## Datos de los estudiantes      GRUPO No. 6
+- **Nombre 1** - Tulio Jafeth Pirir Schuman--201700698
+- **Nombre 2** - Juan Carlos Maldonado Solorzano--201222686
+- **Nombre 3** - GEremias López Suruy--200313184
 ---
 
 ## 1️. Objetivos del Manual
